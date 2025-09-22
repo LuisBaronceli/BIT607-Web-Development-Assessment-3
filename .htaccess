@@ -1,0 +1,7 @@
+
+<Files "roster.html">
+  AuthType Basic
+  AuthName "Restricted - Staff Only"
+  AuthUserFile .htpasswd
+  Require valid-user
+</Files>
